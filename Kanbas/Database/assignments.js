@@ -1,11 +1,11 @@
 export default [
-    { "_id": "A101", "title": "Hi TA like my assignment pls", "course": "RS101" },
-    { "_id": "A102", "title": "I enjoy writing these", "course": "RS101" },
-    { "_id": "A103", "title": "Noot noot", "course": "RS101" },
-    { "_id": "A201", "title": "Engineerringgggggg Quiz", "course": "MOI402" },
-    { "_id": "A202", "title": "What u up to", "course": "MOI402" },
-    { "_id": "A203", "title": "Jesse we need to cook!", "course": "MOI402" },
-    { "_id": "A301", "title": "Somehow Palpatine is Back", "course": "SAC103" },
-    { "_id": "A302", "title": "Theres too many of them!", "course": "SAC103" },
-    { "_id": "A303", "title": "Web Dev Exam", "course": "SAC103" }
-  ]
+  { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101" },
+  { "_id": "A102", "title": "Combustion Analysis", "course": "RS101" },
+  { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101" },
+  { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102" },
+  { "_id": "A202", "title": "Flow Analysis", "course": "RS102" },
+  { "_id": "A203", "title": "Heating Analysis", "course": "RS102" },
+  { "_id": "A301", "title": "Structural Design Task", "course": "RS103" },
+  { "_id": "A302", "title": "Orbital Calculations", "course": "RS103" },
+  { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103" }
+]

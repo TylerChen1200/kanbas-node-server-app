@@ -28,7 +28,7 @@ const Lab5 = (app) => {
     assignment.title = newTitle;
     res.json(assignment);
   });
-    app.post("/a5/todos", (req, res) => {
+  app.post("/a5/todos", (req, res) => {
     const newTodo = {
       ...req.body,
       id: new Date().getTime(),
@@ -36,9 +36,9 @@ const Lab5 = (app) => {
     todos.push(newTodo);
     res.json(newTodo);
   });
-
-
-
+  app.get("/a5/todos", (req, res) => {
+    res.json(todos);
+  });
   app.get("/a5/todos/:id", (req, res) => {
     const { id } = req.params;
     const todo = todos.find((t) => t.id === parseInt(id));
@@ -58,9 +58,7 @@ const Lab5 = (app) => {
     todo.completed = req.body.completed;
     res.sendStatus(200);
   });
-  app.get("/a5/todos", (req, res) => {
-    res.json(todos);
-  });
+
   app.delete("/a5/todos/:id", (req, res) => {
     const { id } = req.params;
     const todo = todos.find((t) => t.id === parseInt(id));
